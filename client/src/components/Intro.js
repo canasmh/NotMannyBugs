@@ -5,7 +5,7 @@ function Intro() {
         <section id='intro'>
             <header>
                 <h1>NotMannyBugs</h1>
-                <h2>Transitioning to Tech? <br/>Let's talk about tt</h2>
+                <h3>Transitioning to Tech? <br/>Let's talk about it.</h3>
             </header>
             <p>More Posts. Less Bugs.</p>
         </section>
