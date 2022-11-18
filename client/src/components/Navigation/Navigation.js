@@ -13,7 +13,7 @@ export default function Navigation(props) {
             </div>
             {!props.isMobile ?
             <NavItems /> :
-            <FontAwesomeIcon icon={faBars} size="lg"/>}
+            <FontAwesomeIcon icon={faBars} className="nav-bars"/>}
         </nav>
     )
 };
