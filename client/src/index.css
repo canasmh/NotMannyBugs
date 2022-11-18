@@ -28,8 +28,15 @@ article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
 	display: block;
 }
+
+html {
+	font-size: 62.5%;
+}
 body {
-	line-height: 1;
+	line-height: 1.5;
+	font-size: 1.6rem;
+	text-align: center;
+	overflow-x: hidden;
 }
 ol, ul {
 	list-style: none;
@@ -45,4 +52,17 @@ q:before, q:after {
 table {
 	border-collapse: collapse;
 	border-spacing: 0;
+}
+
+h1 {
+	font-size: 4.0rem;
+}
+
+h3 {
+	font-size: 3.2rem;
+}
+
+a:link, a:visited {
+	text-decoration: none;
+	color: inherit;
 }
