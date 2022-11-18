@@ -130,3 +130,6 @@ dist
 .pnp.*
 
 *.mov
+
+# Apple created files
+*.DS_Store
