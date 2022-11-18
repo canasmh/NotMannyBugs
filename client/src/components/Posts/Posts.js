@@ -4,7 +4,6 @@ import posts from "../../fakePosts";
 import "./Posts.css"
 
 export default function Posts(props) {
-    console.log(posts);
     return (
         <section id="posts">
             <h2>Posts</h2>
