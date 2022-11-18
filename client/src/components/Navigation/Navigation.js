@@ -1,17 +1,19 @@
 import React from "react";
 import NavItems from "./NavItems";
-import "./Navigation.css"
+import "./Navigation.css";
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faBars } from '@fortawesome/pro-light-svg-icons';
 
 export default function Navigation(props) {
     
     return (
         <nav>
-            <div className="nav-title">
-                <p className=""><a href="#">NotMannyBugs</a></p>
+            <div>
+                <p className="nav-title"><a href="#">NotMannyBugs</a></p>
             </div>
             {!props.isMobile ?
             <NavItems /> :
-            <button>Nav</button>}
+            <FontAwesomeIcon icon={faBars} size="lg"/>}
         </nav>
     )
 };
