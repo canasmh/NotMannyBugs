@@ -6,7 +6,7 @@ export default function App() {
   const [isMobile, setIsMobile] = useState(0);
 
     const handleResize = () => {
-        if (window.innerWidth < 768) {
+        if (window.innerWidth <= 768) {
             setIsMobile(true)
         } else {
             setIsMobile(false)
