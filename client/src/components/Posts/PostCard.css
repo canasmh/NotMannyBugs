@@ -1,0 +1,19 @@
+.post-card {
+    width: 100%;
+    height: 30rem;
+    border: 1px solid #000;
+    margin: 5rem auto 2.5rem;
+    overflow: hidden;
+    border-radius: 15px;
+    background: linear-gradient(to right bottom, rgba(0, 0, 128, 0.9), rgba(0, 0, 64, 0.9), rgba(0, 0, 32, 0.9));
+    color: #fff;
+}
+
+.post-summary {
+    height: 40%;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 0 5% 5%;
+}
