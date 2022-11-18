@@ -133,3 +133,9 @@ dist
 
 # Apple created files
 *.DS_Store
+
+# Temporarily ignore image files
+*.png
+*.jpeg
+*.jpg
+*.gif
