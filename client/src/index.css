@@ -58,8 +58,20 @@ h1 {
 	font-size: 4.0rem;
 }
 
+h2 {
+	font-size: 3.6rem;
+}
+
 h3 {
 	font-size: 3.2rem;
+}
+
+h4 {
+	font-size: 2.6rem;
+}
+
+strong {
+	font-weight: 800;
 }
 
 a:link, a:visited {
