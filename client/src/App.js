@@ -1,8 +1,7 @@
 import React, { useState , useEffect } from "react";
-import Navigation from "./components/Navigation/Navigation";
 import Intro from "./components/Intro";
 
-function App() {
+export default function App() {
 
   const [isMobile, setIsMobile] = useState(0);
 
@@ -25,10 +24,7 @@ function App() {
 
   return (
     <>
-      <Header />
-      <Intro />
+      <Intro isMobile={isMobile} />
     </>
   );
 }
-
-export default App;
