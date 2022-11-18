@@ -1,7 +1,7 @@
 #intro {
     height: 100vh;
     border: 1px solid #000;
-    background-image: linear-gradient(to right bottom,rgba(0, 0, 32, 0.8) 40%, rgba(0, 0, 16, 0.8) 60%, rgba(0, 0, 0, 0.8)),  url("../../public/main-bg.png");
+    background-image: linear-gradient(to right bottom,rgba(0, 0, 32, 0.9) 40%, rgba(0, 0, 16, 0.9) 60%, rgba(0, 0, 0, 0.9)),  url("../../public/main-bg.png");
     background-size: cover;
     color: #fff;
     display: flex;
@@ -12,6 +12,11 @@
 header {
     height: 30vh;
     display: flex;
-    flex-flow: column wrap;
-    justify-content: space-around;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: space-around;
+}
+
+.header-title {
+    flex-basis: 100%;
 }
