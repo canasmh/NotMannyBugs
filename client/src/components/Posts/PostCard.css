@@ -5,8 +5,9 @@
     margin: 5rem auto 2.5rem;
     overflow: hidden;
     border-radius: 15px;
-    background: linear-gradient(to right bottom, rgba(0, 0, 128, 0.9), rgba(0, 0, 64, 0.9), rgba(0, 0, 32, 0.9));
+    background: linear-gradient(to right bottom, rgba(0, 0, 96, 0.9) 20%,  rgba(8, 0, 16, 0.9));
     color: #fff;
+    padding-bottom: 2%;
 }
 
 .post-summary {
@@ -15,5 +16,82 @@
     flex-flow: column wrap;
     justify-content: space-evenly;
     align-items: center;
-    margin: 0 5% 5%;
+    padding-top: 2%;
+    padding-left: 3%;
+    padding-right: 3%;
+}
+
+.author, .date, .category {
+	font-size: 1.5rem;
+}
+
+@media only screen and (min-width: 768px) {
+    .post-card {
+        width: 80%;
+        height: 55rem;
+        border-radius: 35px;
+        margin: 8rem auto 5rem;
+        padding-bottom: 5%;
+    }
+
+    .post-summary {
+        padding-top: 3%;
+        padding-left: 10%;
+        padding-right: 10%;
+    }
+
+    .author, .date, .category {
+        font-size: 2.5rem;
+    }
+}
+
+@media only screen and (min-width: 900px) {
+    .post-card {
+        width: 40%;
+        height: 45rem;
+        border-radius: 35px;
+        margin: 8rem auto 5rem;
+        flex-basis: 40%;
+        animation: lower 0.2s ease-in-out;
+        animation-fill-mode: none;
+        padding-bottom: 3%;
+    }
+
+    .post-card:hover {
+        animation: raise 0.2s ease-in-out;
+        animation-fill-mode: forwards;
+        cursor: pointer;
+    }
+
+    @keyframes raise {
+        from {
+            
+        }
+
+        to {
+            box-shadow: 0 20px 50px #0F0F0F;
+            transform: scale(1.05);
+        }
+    }
+
+    @keyframes lower {
+        from {
+            box-shadow: 0 20px 50px #0F0F0F;
+            transform: scale(1.05);
+        }
+
+        to {
+            box-shadow: none;
+            transform: scale(1);
+        }
+    }
+
+    .post-summary {
+        flex-flow: row wrap;
+    }
+
+    .author, .date, .category {
+        font-size: 2.2rem;
+        flex-basis: 100%;
+    }
 }
