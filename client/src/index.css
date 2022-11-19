@@ -79,6 +79,7 @@ a:link, a:visited {
 	color: inherit;
 }
 
+
 @media only screen and (min-width: 768px) {
 	body {
 		font-size: 2.5rem;
@@ -89,14 +90,24 @@ a:link, a:visited {
 		font-size: 6.0rem;
 		letter-spacing: 25px;
 	}
+
+	h2 {
+		font-size: 5.8rem;
+		text-transform: uppercase;
+		letter-spacing: 5px;
+	}
 	
 	h3 {
 		font-size: 4.0rem;
 		letter-spacing: 6px;
 	}
+
+	h4 {
+		font-size: 3.8rem;
+	}
 }
 
-@media only screen and (min-width: 768px) {
+@media only screen and (min-width: 900px) {
 	body {
 		font-size: 2rem;
 		line-height: 2;
