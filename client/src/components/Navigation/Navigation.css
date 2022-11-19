@@ -3,6 +3,9 @@ nav {
     justify-content: space-between;
     padding: 0 5%;
     align-items: center;
+    animation: fade-in 2s ease-in;
+    animation-fill-mode: backwards;
+    animation-delay: 4s;
 }
 
 .nav-title {
@@ -22,6 +25,14 @@ nav {
 
 .nav-item:hover, .nav-title:hover {
     color: rgb(64, 64, 128);
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    } to {
+        opacity: 1;
+    }
 }
 
 @media only screen and (min-width: 768px) {
