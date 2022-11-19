@@ -20,3 +20,24 @@ header {
 .header-title {
     flex-basis: 100%;
 }
+
+.lets-talk-text {
+    font-size: 2rem;
+    line-height: 2;
+}
+
+.header-slogan {
+    line-height: 2;
+}
+
+@media only screen and (min-width: 768px) {
+    .lets-talk-text {
+        font-size: 3.2rem;
+        line-height: 2.5;
+    }
+
+    .header-slogan {
+        font-size: 4rem;
+    }
+
+}
