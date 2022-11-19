@@ -6,4 +6,19 @@
     #posts {
         padding: 10% 5% 0%;
     }
+
+    #posts h2 {
+        letter-spacing: 30px;
+    }
+}
+
+@media only screen and (min-width: 900px) {
+    .posts-container {
+        display: flex;
+        flex-flow: row wrap;
+    }
+
+    #posts h2 {
+        letter-spacing: 40px;
+    }
 }
