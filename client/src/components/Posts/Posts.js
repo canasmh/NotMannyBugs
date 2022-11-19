@@ -7,7 +7,9 @@ export default function Posts(props) {
     return (
         <section id="posts">
             <h2>Posts</h2>
-            {posts.map((post, index) => <PostCard post={post} key={index} />)}
+            <div className="posts-container">
+                {posts.map((post, index) => <PostCard post={post} key={index} />)}
+            </div>
         </section>
     )
 }
