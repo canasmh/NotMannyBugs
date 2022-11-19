@@ -14,7 +14,7 @@ function Intro(props) {
                     <h3 className="header-slogan">More posts. {props.isMobile ? <br /> : null } Less bugs.</h3>
                 </div>
             </header>
-            <p>Transitioning into tech? <br/> Let's talk about it.</p>
+            <p className="lets-talk-text">Transitioning into tech? <br/> Let's talk about it.</p>
         </section>
     )
 }
