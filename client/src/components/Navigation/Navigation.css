@@ -9,7 +9,7 @@ nav {
     font-size: 2rem;
     letter-spacing: 1px;
     text-indent: 1px;
-    transition: color 0.5s ease-out;
+    transition: color 0.15s ease-out;
 }
 
 .nav-bars {
@@ -17,11 +17,11 @@ nav {
 }
 
 .nav-item {
-    transition: color 0.5s ease-out;
+    transition: color 0.25s ease-out;
 }
 
 .nav-item:hover, .nav-title:hover {
-    color: #5F9DF7;
+    color: rgb(64, 64, 128);
 }
 
 @media only screen and (min-width: 768px) {
