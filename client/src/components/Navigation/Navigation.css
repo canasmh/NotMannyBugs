@@ -49,8 +49,8 @@ nav {
     .nav-items {
         flex-basis: 50%;
         display: flex;
-        letter-spacing: 2px;
-        text-indent: 2px;
+        letter-spacing: 3px;
+        text-indent: 3px;
     }
 
 }

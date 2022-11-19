@@ -34,10 +34,19 @@ header {
     .lets-talk-text {
         font-size: 3.2rem;
         line-height: 2.5;
+        letter-spacing: 5px;
+        text-indent: 5px;
     }
 
     .header-slogan {
         font-size: 4rem;
     }
+}
 
+@media only screen and (min-width: 768px) {
+
+    .header-slogan {
+        letter-spacing: 10px;
+        text-indent: 10px;
+    }
 }
