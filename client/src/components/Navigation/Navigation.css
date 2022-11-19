@@ -8,6 +8,7 @@ nav {
 .nav-title {
     font-size: 2rem;
     letter-spacing: 1px;
+    text-indent: 1px;
     transition: color 0.5s ease-out;
 }
 
@@ -43,11 +44,13 @@ nav {
 @media only screen and (min-width: 900px) {
     .nav-title {
         letter-spacing: 2px;
+        text-indent: 2px;
     }
     .nav-items {
         flex-basis: 50%;
         display: flex;
         letter-spacing: 2px;
+        text-indent: 2px;
     }
 
 }

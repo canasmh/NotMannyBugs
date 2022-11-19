@@ -88,17 +88,20 @@ a:link, a:visited {
     h1 {
 		font-size: 6.0rem;
 		letter-spacing: 25px;
+		text-indent: 25px;
 	}
 
 	h2 {
 		font-size: 5.8rem;
 		text-transform: uppercase;
 		letter-spacing: 5px;
+		text-indent: 5px;
 	}
 	
 	h3 {
 		font-size: 4.0rem;
 		letter-spacing: 6px;
+		text-indent: 6px;
 	}
 
 	h4 {
