@@ -4,7 +4,7 @@ import Posts from "./components/Posts/Posts";
 
 export default function App() {
 
-  const [isMobile, setIsMobile] = useState(0);
+  const [isMobile, setIsMobile] = useState(window.innerWidth <= 768);
 
     const handleResize = () => {
         if (window.innerWidth <= 768) {
