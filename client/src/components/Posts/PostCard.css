@@ -68,14 +68,14 @@
         }
 
         to {
-            box-shadow: 0 25px 75px #0F0F0F;
+            box-shadow: 0 20px 60px black;
             transform: scale(1.02) translateY(-2.5rem);
         }
     }
 
     @keyframes lower {
         from {
-            box-shadow: 0 25px 75px #0F0F0F;
+            box-shadow: 0 20px 60px black;
             transform: scale(1.02) translateY(-2.5rem);
         }
 
