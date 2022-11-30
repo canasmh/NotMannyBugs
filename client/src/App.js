@@ -1,5 +1,5 @@
 import React, { useState , useEffect } from "react";
-import Intro from "./components/Intro";
+import Home from "./components/Home";
 import Posts from "./components/Posts/Posts";
 
 export default function App() {
@@ -25,7 +25,7 @@ export default function App() {
 
   return (
     <>
-      <Intro isMobile={isMobile} />
+      <Home isMobile={isMobile} />
       <Posts />
     </>
   );
