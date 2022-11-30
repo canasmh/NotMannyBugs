@@ -1,12 +1,12 @@
 import React from "react";
 import Navigation from "./Navigation/Navigation";
-import "./Intro.css"
+import "./Home.css"
 
-function Intro(props) {
+export default function Home(props) {
 
     // https://www.geeksforgeeks.org/create-a-responsive-navbar-using-reactjs/
     return (
-        <section id='intro'>
+        <section id='home'>
             <Navigation isMobile={props.isMobile} />
             <header>
                 <h1 className="header-title">NotMannyBugs</h1>
@@ -18,5 +18,3 @@ function Intro(props) {
         </section>
     )
 }
-
-export default Intro;
