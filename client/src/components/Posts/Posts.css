@@ -6,6 +6,29 @@
 #posts h2 {
     color: rgb(0, 0, 64);
     text-transform: uppercase;
+    letter-spacing: 15px;
+    text-indent: 15px;
+}
+
+.post-buttons {
+    display: flex;
+    flex-flow: row wrap;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.button-container {
+    flex-basis: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 1.6rem 0;
+}
+
+select {
+    width: 60%;
+    padding: 0.6rem;
+    border-radius: 15px;
 }
 
 @media only screen and (min-width: 320px) {
@@ -19,6 +42,16 @@
     }
 }
 
+@media only screen and (min-width: 600px) {
+    .post-buttons {
+        width: 50%;
+    }
+    
+    select {
+        font-size: 1.8rem;
+    }
+}
+
 @media only screen and (min-width: 900px) {
     .posts-container {
         display: flex;
@@ -28,5 +61,9 @@
     #posts h2 {
         letter-spacing: 40px;
         text-indent: 40px;
+    }
+
+    .post-buttons {
+        width: 30%;
     }
 }
